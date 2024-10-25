@@ -152,7 +152,13 @@ img {
     .row{
         display: block;
     }
-    .col{
+    .lessons .col{
+        width: 100%;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col{
         width: 100%;
     }
  }
