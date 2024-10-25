@@ -129,12 +129,23 @@ img {
  ************************************************/
 
 
+/* TABLET*/
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
  /* MOBILE*/
 
  @media screen and (max-width: 480px) {
     .container{
         display: flex;
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
         justify-content: center;
     }
@@ -146,6 +157,6 @@ img {
     }
  }
 
- /* TABLET*/
+ 
 
  
